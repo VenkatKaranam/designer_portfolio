@@ -27,7 +27,7 @@ const Project = ({ project }) => {
                 })}
             </div>
             )}
-                 <a href='http://www.google.com'><img src={project.workSampleImg} alt=""/></a>
+                 <a target='_blank' href={project.projectLink}><img src={project.workSampleImg} alt=""/></a>
         </div>
     )
 }

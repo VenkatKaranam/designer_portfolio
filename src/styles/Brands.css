@@ -13,9 +13,10 @@
 }
 @media (max-width: 767px) {
     #brands .brands-container{
-     justify-content: center;
+
+     justify-content: flex-start;
     }
     #brands img{
-    width: 154px;
+    width: 130px;
     }
 }

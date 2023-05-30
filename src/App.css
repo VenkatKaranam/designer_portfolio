@@ -11,9 +11,11 @@ nav {
   cursor: pointer;
 }
 .nav_menu {
-  padding: 74px 0 16px;
+  padding: 78px 0 20px;
   display: flex;
-  justify-content: center;
+  max-width: 1255px;
+  margin: auto;
+  justify-content: start;
   gap: 64px;
   font-size: 16px;
   line-height: 22px;
@@ -128,7 +130,7 @@ nav {
   padding: 20px 54px;
 }
 .button_section{
-  margin-top: 40px;
+  margin-top: 54px;
 }
 .learn_more_btn {
   background-color: transparent;
@@ -168,12 +170,12 @@ nav {
   color: #BBBBBB;
   display: flex;
   align-items: center;
-  column-gap: 16px;
+  column-gap: 12px;
   margin: 0 0 16px;
 }
 .section_title::before {
   content: "";
-  width: 70px;
+  width: 40px;
   height: 1px;
   display: inline-block;
   background-color: #BBBBBB;
@@ -397,8 +399,8 @@ nav {
   }
   #home .greet_msg {
     font-weight: 500;
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 14px;
+    line-height: 19px;
     text-align: left;
   }
   #home .work_info {
@@ -407,11 +409,14 @@ nav {
     max-width: 318px;
     margin-bottom: 20px;
   }
+  .button_section{
+    margin-top: 40px;
+  }
   .hire_me_btn, .learn_more_btn {
     padding: 12px 20px;
     font-size: 14px;
     line-height: 19px;
-    width: 139px;
+    width: 135px;
   }
   .hire_me_btn {
     margin: 0 12px 0 0;
@@ -439,7 +444,7 @@ nav {
   }
   .number_container {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     text-align: left;
     row-gap: 32px;
   }
@@ -449,7 +454,7 @@ nav {
     margin: 0 0 8px;
   }
   .partner_img {
-    width: 186px;
+    width: 174px;
     height: auto;
   }
   .section_heading .heading, .contact_heading {
@@ -465,6 +470,6 @@ nav {
     padding: 12px 24px;
   }
   #contact .contact-container{
-    padding: 16px 24px;
+    padding: 24px 16px;
   }
 }
