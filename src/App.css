@@ -128,7 +128,7 @@ nav {
   padding: 20px 54px;
 }
 .button_section{
-  margin-top: 54px;
+  margin-top: 40px;
 }
 .learn_more_btn {
   background-color: transparent;
@@ -146,7 +146,7 @@ nav {
   margin: 100px auto;
 }
 .partner_img {
-  width: 200px;
+  width: 308px;
   height: auto;
 }
 .partner_img.internshala {
@@ -217,7 +217,7 @@ nav {
 .strategy_info {
   width: 248px;
   font-size: 16px;
-  line-height: 22px;
+  line-height: 24px;
   display: flex;
 }
 
@@ -395,9 +395,15 @@ nav {
   #home {
     margin: 200px 0 0;
   }
+  #home .greet_msg {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: left;
+  }
   #home .work_info {
-    font-size: 20px;
-    line-height: 27px;
+    font-size: 24px;
+    line-height: 32px;
     max-width: 318px;
     margin-bottom: 20px;
   }
@@ -411,7 +417,7 @@ nav {
     margin: 0 12px 0 0;
   }
   #partners {
-    margin: 60px 0 292px;
+    margin: 44px 0 60px;
   }
   .partner_img.internshala {
     top: -8px;
@@ -443,8 +449,8 @@ nav {
     margin: 0 0 8px;
   }
   .partner_img {
-    width: 154px;
-    height: 47px;
+    width: 186px;
+    height: auto;
   }
   .section_heading .heading, .contact_heading {
     font-size: 24px;
@@ -457,5 +463,8 @@ nav {
     font-size: 14px;
     line-height: 19px;
     padding: 12px 24px;
+  }
+  #contact .contact-container{
+    padding: 16px 24px;
   }
 }

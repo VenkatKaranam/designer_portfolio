@@ -19,7 +19,7 @@ const Metrics = () => {
                     return (
                         <div key={index} className="value_card">
                             <div className="value" ref={ref}>
-                            <FlipNumbers height={numberSize} width={numberSize}  play={inView} numbers={data.value} duration={5}/>
+                            <FlipNumbers height={numberSize} width={numberSize-12}  play={inView} numbers={data.value} duration={5}/>
                             </div>
                             <div className="title">{data.title}</div>
                         </div>

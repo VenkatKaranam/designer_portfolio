@@ -18,6 +18,7 @@
     font-weight: 700;
 }
 .value_card .title{
+    margin-top: 8px;
     font-family: 'satoshi';
     font-size: 20px;
     font-weight: 400;

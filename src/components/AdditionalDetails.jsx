@@ -20,7 +20,7 @@ const AdditionalDetails = () => {
                     return (
                         <div key={index} className="number_card">
                             <div className="value" ref={ref}>
-                            <FlipNumbers height={numberSize} width={numberSize}  play={inView} numbers={data.number} duration={3}/>
+                            <FlipNumbers height={numberSize} width={numberSize-10}  play={inView} numbers={data.number} duration={3}/>
                             </div>
                             <div className="title">{data.title}</div>
                         </div>
