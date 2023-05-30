@@ -407,7 +407,9 @@ nav {
     font-size: 24px;
     line-height: 32px;
     max-width: 318px;
+    font-weight: 500;
     margin-bottom: 20px;
+    margin-top: 12px;
   }
   .button_section{
     margin-top: 40px;
